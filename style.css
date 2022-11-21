@@ -10,15 +10,20 @@ Font: Times;
 /* Show it is fixed to the top */
 body {
     background-color: white !important;
-    
-    /*font-family: Times, Georgia, Helvetica, sans-serif !important; 
-    */
-    font-family:  "Palatino Linotype","Palatino LT STD","Book Antiqua",Times,"Times New Roman",serif !important;
+    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
 
-    /*font-family: "Times New Roman", Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Times,"Times New Roman",serif !important; 
+    /*font-family: Times, Georgia, Helvetica, sans-serif !important; 
+    font-family:  "Palatino Linotype","Palatino LT STD","Book Antiqua",Times,"Times New Roman",serif !important;
+    font-family: "Times New Roman", Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Times,"Times New Roman",serif !important; 
     */
 }
 
+
+
+/* Home page */
+.image-text-nlg{
+    color: #a4c400 !important;  
+}
 
 .nlg-landing {
     /*
@@ -63,20 +68,15 @@ h1.nlg-landing {
 
 
 
-.btn-line{
-    color: black !important;
-    border-color: #53B80E !important; 
 
-}
 
-.btn-line:hover, .btn-line:focus, .btn-line:active, .btn-line.active, .open>.dropdown-toggle.btn-line {
+
+.page-header.p{
     color: white !important;
-    background-color: #53B80E !important;
-    border-color: #53B80E !important; 
 }
-
-
-
+.page-header.span{
+    color: #a4c400 !important;
+}
 
 
 /*Census Tracker Div*/
@@ -127,6 +127,129 @@ footer{
     color: #53B80E;
 }
 
-.btn{
-    transition: 1s;
+
+
+
+.header-container {
+    padding: .75rem;
+    margin-bottom: 1.5rem;
+    background-color: rgba(0, 0, 0, 1);
+    border-bottom: 5px solid #a4c400;  
+}
+
+.content-container {
+    padding: .75rem;
+    margin-bottom: 1.5rem;
+    background-color: white;
+
+  }
+
+  
+.header-text-1 {
+    color: white;
+    /* font-size: 5rem !important; */
+    font-size: 7vw !important;
+    font-weight: bolder;
+}
+.header-text-2 {
+    color: #a4c400;
+    font-size: 7vw !important;
+    font-weight: bolder;
+
+}
+
+
+/* nlg styles */
+.nlg-text{
+    color: #a4c400 !important;
+}
+
+/* our work */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: 400;
+}
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+/* FA Icons */
+.fa-phone{
+    color: #a4c400 !important;
+}
+.fa-eye{
+    color: #a4c400 !important;
+}
+.fa-eye{
+    color: #a4c400 !important;
+}
+
+
+
+
+/* Nav */
+.active-menu-tab{
+    color: #a3c400b0 !important;
+    
+}
+.nlg-nav-items{
+    color: black !important;
+}
+.nlg-nav-link{
+    color: black !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+
+
+
+
+/* btns */
+.btn-nlg-primary{
+    color: white !important;
+    background-color: #a4c400 !important;
+}
+
+.btn-nlg-secondary{
+    color: white !important;
+    background-color: #4B000F !important;
+
+}
+
+
+.btn-nlg{
+
+}
+
+.btn-nlg:hover, .btn-nlg:focus, .btn-nlg:active, .btn-nlg.active, .open>.dropdown-toggle.btn-nlg {
+    color: white !important;
+    background-color: #53B80E !important;
+    border-color: #53B80E !important; 
+}
+
+.btn-nlg{
+    transition: .5s;
+}
+
+
+/* divs and panels */
+.bg-nlg-yellow {
+    background-color: #e4dd27 !important;
+    color: black !important;
+}
+
+.bg-nlg-black {
+    background-color: black !important;
+    color: white !important;
+}
+
+.nlg-bottom-border{
+    border-bottom: 3px solid #a4c400; 
 }
