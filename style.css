@@ -124,7 +124,8 @@ footer{
     color: azure;
 }
 .footer-icon:hover{
-    color: #53B80E;
+    /* color: #53B80E; */
+    color:#a4c400;
 }
 
 
@@ -163,6 +164,10 @@ footer{
 .nlg-text{
     color: #a4c400 !important;
 }
+
+
+
+
 
 /* our work */
 .marketing .col-lg-4 {
